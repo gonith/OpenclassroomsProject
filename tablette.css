@@ -1,0 +1,273 @@
+body {
+    width: auto;
+    margin-left: 20px;
+}
+
+body a {
+    text-decoration: none;
+}
+    /* HEADER */
+    /* LOGO */
+#first {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#first img {
+    height: 40px;
+}
+    /* NAV */
+nav {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display:flex;
+    margin-right: 40px;
+}
+
+nav li {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 800;
+    color:black;
+    font-size: 15px;
+}
+nav li:hover {
+    border-top: solid #0065FC;
+    color: #0065FC;
+}
+    /* TITRES */
+header h1 {
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+header h2 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+    /* SEARCHBAR */
+#zonetext {
+    height: 46px;
+    width: 250px;
+    border: 1px solid white;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#searchbar {
+    width: 350px;
+    height: 46px;
+    display:flex;
+}
+
+#searchbar .searchBtn {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 48px;
+    width: 100px;
+    margin-left: -2px;
+    border: none;
+    background-color: #0065FC;
+    font-family: 'Raleway';
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.01s;
+    transition-delay: 0.01s;
+}
+
+#searchbar .searchBtn:active {
+    font-size: 16px;
+}
+
+#pic {
+    width: 46px;
+    height: 46px;
+    background-color: #f2f2f2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pic .fa-solid {
+    font-size: 18px;
+}
+    /* FILTRES */
+#filtres {
+    width: 450px;
+    height: 120px;
+    margin-top: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.btn {
+    height: 40px;
+    border: 3px solid #f2f2f2;
+    border-radius: 50px;
+    display:flex;
+    transition: all 0.1s;
+    transition-delay: 0.1s;
+    align-items: center;
+}
+
+.el1 {
+    width: 185px;
+}
+
+.el1:hover {
+    width: 200px;
+    background-color: #f2f2f2;
+}
+
+.el2 {
+    width: 145px;
+}
+
+.el2:hover {
+    width: 160px;
+    background-color: #f2f2f2;
+}
+
+.el3 {
+    width: 185px;
+}
+
+.el3:hover {
+    width: 200px;
+    background-color: #f2f2f2;
+}
+
+.el4 {
+    width: 235px;
+}
+
+.el4:hover {
+    width: 250px;
+    background-color: #f2f2f2;
+}
+
+.btn .imgfil {
+    width: 40px;
+    height: 41px;
+    border: 1px solid #DEEBFF;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: -2px;
+    margin-top: -1px;
+    -webkit-transition: all 2s ease;
+    transition: all 2s ease; 
+    -webkit-transform: rotate(360deg); /* rotation de l'image */
+    transform: rotate(360deg);   
+}
+
+.btn p {
+    display:flex;
+    align-items: center;
+    padding-left: 15px;
+    color:black;
+}
+
+.fa-solid {
+    font-size: 18px;
+}
+    /*INFORMATION*/
+#logotext {
+    height: 35px;
+}
+#logotext .fa-solid {
+    font-size: 13px;
+}
+#information {
+    width: 25px;
+    height: 25px;
+}
+
+#logotext p {
+    font-size: 15px;
+}
+    /* MAIN */
+main {
+    display:flex;
+    flex-direction: column-reverse;
+}    
+
+aside {
+    width: 870px;
+    height: 200px;
+    margin-left: 0px;
+}
+
+#blocpop {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 870px;
+    height: 200px;
+    margin-top: -50px;
+}
+
+aside h2 {
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 900;
+    padding-left: 0px;
+}
+
+aside h2 .fa-solid {
+    margin-left: 10px;
+}
+
+.contentbloc {
+    width: 31%;
+    height: 55%
+}
+
+.starside {
+    margin-top: -20px;
+}
+
+.starside .greyside {
+    margin-bottom: -1px;
+}
+
+.contentbloc img {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+    /* SECTION */
+#container h2 {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+}    
+
+#container h4 {
+    display:flex;
+    justify-content: center;
+}
