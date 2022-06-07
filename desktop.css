@@ -281,7 +281,11 @@ section {
     background-color: white;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
-    cursor: pointer;
+}
+
+.item a {
+    text-decoration: none;
+    color: black;
 }
 
 .item img {
@@ -395,7 +399,6 @@ aside h2 .fa-solid {
     margin-top: -35px;
     display:flex;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
-    cursor: pointer;
 }
 
 .contentbloc h3 {
@@ -417,7 +420,7 @@ aside h2 .fa-solid {
 
 .starside .fa-solid {
     font-size: 12px;
-    margin-top: 50px;
+    margin-top: 40px;
     color: #0065FC;
 }
 
@@ -429,7 +432,7 @@ aside h2 .fa-solid {
 }
 
 .greyside {
-    margin-bottom: -3px;
+    margin-bottom: -2px;
     letter-spacing: -2px;
 }
 
@@ -455,7 +458,6 @@ aside h2 .fa-solid {
     flex-direction: column;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
     border-radius: 15px;
-    cursor: pointer;
 }
 
 .colonne1 img {
@@ -494,7 +496,6 @@ aside h2 .fa-solid {
     border-radius: 15px;
     display:flex;
     flex-direction: column;
-    cursor: pointer;
 }
 
 .petitecase_el1 img {
@@ -510,7 +511,6 @@ aside h2 .fa-solid {
     border-radius: 15px;
     display:flex;
     flex-direction: column;
-    cursor: pointer;
 }
 
 .petitecase_el2 img {
@@ -526,7 +526,6 @@ aside h2 .fa-solid {
     border-radius: 15px;
     display:flex;
     flex-direction: column;
-    cursor: pointer;
 }
 
 .petitecase_el3 img {
@@ -542,7 +541,6 @@ aside h2 .fa-solid {
     border-radius: 15px;
     display:flex;
     flex-direction: column;
-    cursor: pointer;
 }
 
 .petitecase_el4 img {
