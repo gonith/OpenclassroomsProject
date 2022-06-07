@@ -42,7 +42,6 @@ header nav li {
     padding-left: 20px;
     padding-right: 20px;
     font-weight: 800;
-    color:black;
     font-size: 18px;
     border-top: 3px solid white;
 }
@@ -51,6 +50,7 @@ nav a {
     text-decoration: none;
     color: black;
 }
+
 header nav li:hover {
     border-top: 3px solid #0065FC;
     color: #0065FC;
@@ -281,6 +281,7 @@ section {
     background-color: white;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
 }
 
 .item img {
@@ -336,6 +337,12 @@ section {
     padding-top: 10px;
     font-size: 18px;
     font-weight: 900;
+    color: black;
+    width: 17%;
+}
+
+#container h4:hover {
+    color: #0065FC;
 }
     /* ASIDE */
 aside {
@@ -349,10 +356,11 @@ aside {
 
 aside h2 {
     height: 50px;
-    margin-top: 35px;
+    margin-top: 50px;
     padding-left: 35px;
     font-weight: 900;
     font-size: 21px;
+    margin-bottom: 0px;
 }
 
 aside h2 .fa-solid {
@@ -362,8 +370,7 @@ aside h2 .fa-solid {
 
 #blocpop {
     width: 350px;
-    height: 600px;
-    margin-top: -20px;
+    height: 550px;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
@@ -373,7 +380,7 @@ aside h2 .fa-solid {
 .contentbloc img {
     width: 40%;
     height: 90%;
-    margin-top: 3%;
+    margin-top: 2%;
     margin-left: 3%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -387,7 +394,8 @@ aside h2 .fa-solid {
     border-radius: 15px;
     margin-top: -35px;
     display:flex;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05)
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
 }
 
 .contentbloc h3 {
@@ -447,6 +455,7 @@ aside h2 .fa-solid {
     flex-direction: column;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .colonne1 img {
@@ -485,6 +494,7 @@ aside h2 .fa-solid {
     border-radius: 15px;
     display:flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .petitecase_el1 img {
@@ -500,6 +510,7 @@ aside h2 .fa-solid {
     border-radius: 15px;
     display:flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .petitecase_el2 img {
@@ -515,6 +526,7 @@ aside h2 .fa-solid {
     border-radius: 15px;
     display:flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .petitecase_el3 img {
@@ -530,6 +542,7 @@ aside h2 .fa-solid {
     border-radius: 15px;
     display:flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .petitecase_el4 img {
@@ -581,4 +594,8 @@ footer nav h2 {
 
 footer nav li {
     margin-bottom: 10px;
+}
+
+footer nav li:hover {
+    color: #0065FC;
 }

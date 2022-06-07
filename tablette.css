@@ -27,7 +27,7 @@ header nav {
 header nav ul {
     list-style-type: none;
     display:flex;
-    margin-right: 40px;
+    margin-right: 0px;
 }
 
 header nav li {
@@ -209,7 +209,7 @@ header h2 {
 #logotext p {
     font-size: 15px;
 }
-    /* SECTION */
+    /* ASIDE */
 section {
     display:flex;
     flex-direction: column-reverse;
@@ -234,7 +234,8 @@ aside {
 aside h2 {
     display:flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
     font-size: 18px;
     font-weight: 900;
     padding-left: 0px;
