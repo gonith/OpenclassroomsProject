@@ -216,7 +216,7 @@ section {
 }    
 
 aside {
-    width: 870px;
+    width: 100%;
     height: 200px;
     margin-left: 0px;
 }
@@ -276,6 +276,7 @@ aside h2 .fa-solid {
 
 #container {
     height: 475px;
+    width: 100%;
 }
 
 #container h2 {

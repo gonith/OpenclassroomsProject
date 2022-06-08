@@ -249,7 +249,7 @@ section {
 
     /* CONTAINER */
 #container {
-    width: 870px;
+    width: 75%;
     height: 660px;
     background-color: #f2f2f2;
     margin-top: 20px;
@@ -257,7 +257,7 @@ section {
 }
 
 #container h2 {
-    width: 870px;
+    width: 75%;
     height: 50px;
     padding-top: 35px;
     padding-left: 35px;
@@ -266,13 +266,12 @@ section {
 }
 
 #annonces {
-    width: 870px;
+    width: 100%;
     height: 480px;
     margin-top: -20px;
     display:flex;
-    align-items: center;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-around
 }
 
 .item {
@@ -289,13 +288,14 @@ section {
 }
 
 .item img {
-    width: 240px;
+    width: 95%;
     height: 130px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    margin-left: 6px;
+    margin-left: 3%;
     margin-top: 7px;
     object-fit: cover;
+    object-position: 0% 65%;
 }
 
 .item h3 {
@@ -338,7 +338,7 @@ section {
 
 #container h4 {
     padding-left: 35px;
-    padding-top: 10px;
+    padding-top: -10px;
     font-size: 18px;
     font-weight: 900;
     color: black;
@@ -350,7 +350,7 @@ section {
 }
     /* ASIDE */
 aside {
-    width: 350px;
+    width: 25%;
     height: 660px;
     background-color: #f2f2f2;
     margin-top: 20px;
@@ -373,7 +373,7 @@ aside h2 .fa-solid {
 }
 
 #blocpop {
-    width: 350px;
+    width: 100%;
     height: 550px;
     display:flex;
     flex-direction: column;
@@ -446,11 +446,15 @@ aside h2 .fa-solid {
 }
 
 #activites {
-    width: 1260px;
+    width: 100%;
     height: 400px;
     display:flex;
     justify-content: space-between;
 }  
+
+#activites h2 {
+    color: black;
+}
 
 .colonne1 {
     width: 23%;
@@ -489,64 +493,49 @@ aside h2 .fa-solid {
     justify-content: space-between;
 }
 
-.petitecase_el1 {
-    width: 100%;
+.a1 {
     height: 210px;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
-    border-radius: 15px;
-    display:flex;
-    flex-direction: column;
 }
 
-.petitecase_el1 img {
-    width: 100%;
+.a1 img {
     height: 160px;
-    object-fit: cover;
 }
 
-.petitecase_el2 {
-    width: 100%;
+.a2 {
     height: 150px;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
-    border-radius: 15px;
-    display:flex;
-    flex-direction: column;
 }
 
-.petitecase_el2 img {
-    width: 100%;
+.a2 img {
     height: 100px;
-    object-fit: cover;
 }
 
-.petitecase_el3 {
-    width: 100%;
+.a3 {
     height: 175px;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
-    border-radius: 15px;
-    display:flex;
-    flex-direction: column;
 }
 
-.petitecase_el3 img {
-    width: 100%;
+.a3 img {
     height: 125px;
-    object-fit: cover;
 }
 
-.petitecase_el4 {
-    width: 100%;
+.a4 {
     height: 190px;
+}
+
+.a4 img {
+    height: 140px;
+}
+
+.petitecase {
+    width: 100%;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
     border-radius: 15px;
     display:flex;
     flex-direction: column;
 }
 
-.petitecase_el4 img {
-    width: 100%;
-    height: 140px;
+.petitecase img {
     object-fit: cover;
+    width: 100%;
 }
 
 .colonne2 h2 {
@@ -577,7 +566,7 @@ footer {
 footer nav {
     display:flex;
     justify-content: space-between;
-    width: 1100px;
+    width: 75%;
     height: 100%;
 }
 
