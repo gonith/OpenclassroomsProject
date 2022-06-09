@@ -216,29 +216,25 @@ section {
 }    
 
 aside {
-    width: 100%;
     height: 200px;
     margin-left: 0px;
+    width: 100%;
+    margin-top: 20px;
 }
 
 #blocpop {
-    display:flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 870px;
-    height: 200px;
-    margin-top: -50px;
+    width: 100%;
+    height: 140px;
+    margin-top: 20px;
 }
 
 aside h2 {
-    display:flex;
     justify-content: center;
-    margin-top: 15px;
-    margin-bottom: 10px;
+    align-items: flex-end;
     font-size: 18px;
     font-weight: 900;
-    padding-left: 0px;
+    height: 40px;
 }
 
 aside h2 .fa-solid {
@@ -247,7 +243,7 @@ aside h2 .fa-solid {
 
 .contentbloc {
     width: 31%;
-    height: 55%
+    height: 85%
 }
 
 .starside {
@@ -264,9 +260,10 @@ aside h2 .fa-solid {
 }
     /* SECTION */
 #container h2 {
-    display: flex;
     justify-content: center;
-    padding-left: 0px;
+    margin: auto;
+    height: 50px;
+    font-size: 18px;
 }    
 
 #container h4 {
@@ -277,23 +274,20 @@ aside h2 .fa-solid {
 #container {
     height: 475px;
     width: 100%;
-}
-
-#container h2 {
-    font-size: 18px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    margin-top: 20px;
 }
 
 #container h4 {
-    padding-top: 0px;
-    margin-top: 7px;
-    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    font-size: 16px;
 }
 
 #annonces {
     height: 380px;
-    margin-top: -50px;
 }
 
 #annonces p {
@@ -323,6 +317,10 @@ aside h2 .fa-solid {
     flex-wrap: wrap;
 }
 
+#activtitres {
+    font-size: 10px;
+}
+
 #activites h2 {
     justify-content: center;
     margin-left: 0px;
@@ -336,53 +334,25 @@ aside h2 .fa-solid {
 
 .colonne1 {
     width: 50%;
-    height: 45%;
+    height: 380px;
+}
+
+.colonne1 img {
+    height: 330px;
 }
 
 .colonne2 {
-    width: 40%;
-    height: 45%;
-    justify-content: space-between;
+    width: 45%;
+    height: 380px;
 }
 
-.petitecase_el1 {
+.petitecase {
     width: 100%;
     height: 48%;
 }
 
-.petitecase_el1 img {
-    width: 100%;
-    height: 125px;
-}
-
-.petitecase_el2 {
-    width: 100%;
-    height: 48%;
-}
-
-.petitecase_el2 img {
-    width: 100%;
-    height: 125px;
-}
-
-.petitecase_el3 {
-    width: 100%;
-    height: 48%;
-}
-
-.petitecase_el3 img {
-    width: 100%;
-    height: 125px;
-}
-
-.petitecase_el4 {
-    width: 100%;
-    height: 48%;
-}
-
-.petitecase_el4 img {
-    width: 100%;
-    height: 125px;
+.petitecase img {
+    height: 133px;
 }
     /* FOOTER */
 footer nav {
