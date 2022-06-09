@@ -252,26 +252,24 @@ section {
     width: 75%;
     height: 660px;
     background-color: #f2f2f2;
-    margin-top: 20px;
     border-radius: 15px;
 }
 
 #container h2 {
     width: 75%;
-    height: 50px;
-    padding-top: 35px;
-    padding-left: 35px;
-    font-weight: 900;
+    height: 110px;
+    margin: 0 0 0 40px;
+    display:flex;
+    align-items: center;
     font-size: 21px;
 }
 
 #annonces {
     width: 100%;
     height: 480px;
-    margin-top: -20px;
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 .item {
@@ -337,12 +335,14 @@ section {
 }
 
 #container h4 {
-    padding-left: 35px;
-    padding-top: -10px;
     font-size: 18px;
     font-weight: 900;
     color: black;
-    width: 17%;
+    width: 10%;
+    height: 50px;
+    margin: 0 0 0 40px;
+    display:flex;
+    align-items: center;
 }
 
 #container h4:hover {
@@ -353,18 +353,19 @@ aside {
     width: 25%;
     height: 660px;
     background-color: #f2f2f2;
-    margin-top: 20px;
     border-radius: 15px;
     margin-left: 40px;
+    display:flex;
+    flex-direction: column;
 }
 
 aside h2 {
-    height: 50px;
-    margin-top: 50px;
-    padding-left: 35px;
+    height: 110px;
     font-weight: 900;
     font-size: 21px;
-    margin-bottom: 0px;
+    display:flex;
+    align-items: center;
+    margin: 0 0 0 35px;
 }
 
 aside h2 .fa-solid {
@@ -379,13 +380,13 @@ aside h2 .fa-solid {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin-top: -10px;
 }
 
 .contentbloc img {
     width: 40%;
-    height: 90%;
-    margin-top: 2%;
-    margin-left: 3%;
+    height: 88%;
+    margin: 2% 0 2% 3%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     object-fit: cover;
@@ -507,6 +508,7 @@ aside h2 .fa-solid {
 
 .a2 img {
     height: 100px;
+    object-position: 0% 45%;
 }
 
 .a3 {
@@ -515,6 +517,7 @@ aside h2 .fa-solid {
 
 .a3 img {
     height: 125px;
+    object-position: 0% 30%;
 }
 
 .a4 {

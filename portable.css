@@ -1,6 +1,10 @@
 body {
     margin: auto;
 }
+
+#bloc_page {
+    width: 100%;
+}
     /* LOGO + NAV */
 #first {
     display:flex;
@@ -59,7 +63,7 @@ header nav li:hover {
     /* SEARCHBAR */
 #searchbar {
     width: 300px;
-    margin-left: 35px;
+    margin: auto;
 } 
 
 #searchbar .searchBtn {
@@ -159,7 +163,7 @@ aside h2 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: -10px;
+    margin-top: 25px;
 }
 
 .contentbloc {
@@ -175,12 +179,12 @@ aside h2 {
     width: 100%;
     height: 1000px;
     background-color: white;
+    margin: auto;
 }    
 
 #container h2 {
-    width: 100%;
+    width: 85%;
     justify-content: flex-start;
-    margin-left: 30px;
     font-size: 20px;
     padding-bottom: 0px;
     margin-bottom: -5px;
@@ -188,33 +192,32 @@ aside h2 {
 
 #container h4 {
     justify-content: flex-start;
-    font-size: 18px;
+    font-size: 16px;
+    width: 85%;
+    margin: auto;
 }
 
 #annonces {
     width: 100%;
     height: 1200px;
     flex-direction: column;
-    margin-top: -15px;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .item {
     width: 90%;
-    height: 16%;
+    height: 15.5%;
 }
 
 .item img {
-    width: 96%
-}
-
-#container h4 {
-    margin-top: 20px;
-    font-weight: 900;
+    width: 96%;
+    margin: 2% 2% 0 2%;
 }
 
     /* ACTIVITES */
 #activtitres {
-    margin-top: 310px;
+    margin-top: 280px;
     width: 100%;
     justify-content: flex-start;
 }   
@@ -226,26 +229,44 @@ aside h2 {
 #activites {
     display:flex;
     flex-direction: column;
-    width: 100%;
     align-items: center;
+    justify-content: space-around;
+    width: 100%;
     height: 1200px;
+    margin: auto;
+}
+
+#activites h2 {
+    justify-content: flex-start;
+    margin: auto;
+    width: 85%;
+}
+
+#activites img {
+    height: 133px;
 }
 
 .colonne1 {
-    width: 320px;
+    width: 90%;
     height: 190px;
 }
 
 .colonne1 img {
-    width: 320px;
-    height: 130px;
+    width: 100%;
+    height: 140px;
 }
-
-.colonne1 h1 {
-    height: 50px;
-}
-
 .colonne2 {
-    width: 320px;
+    width: 90%;
     height: 380px;
 }
+
+    /* FOOTER */
+footer {
+    width: 100%;
+    height: 450px;
+}    
+footer nav {
+    flex-direction: column;
+    margin-top: 430px;
+    height: 100%;
+}    
