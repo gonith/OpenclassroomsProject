@@ -110,7 +110,7 @@ header h2 {
 }
     /* FILTRES */
 #filtres {
-    width: 450px;
+    width: 60%;
     height: 120px;
     margin-top: 15px;
     display:flex;
@@ -246,17 +246,30 @@ aside h2 .fa-solid {
     height: 85%
 }
 
+.contentbloc a {
+    width: 50%;
+}
+
+.textinside a {
+    width: 90%;
+}
+
 .starside {
     margin-top: -20px;
 }
 
-.starside .greyside {
-    margin-bottom: -1px;
+.contentbloc img {
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
-.contentbloc img {
-    margin-top: 2%;
-    margin-left: 2%;
+.contentbloc .textinside {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.scnd {
+    margin-bottom: 0;
 }
     /* SECTION */
 #container h2 {
