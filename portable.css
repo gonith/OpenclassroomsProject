@@ -104,22 +104,58 @@ header nav li:hover {
 
     /* FILTRES */
 #filtres {
-    flex-direction: column;
-    align-items: flex-start;
-    height: 260px;
-    width: 250px;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 230px;
+    width: 90%;
     margin-top: 0px;
     margin-left: 30px;
+}
+
+#textless {
+    width: 85%;
 }
 
 #filtres p {
     margin-bottom: 0px;
 }
 
-.btn {
-    margin-top: 10px;
+.el1 {
+    width: 50%;
 }
 
+.el1:hover {
+    width: 55%;
+}
+
+.el2 {
+    width: 38%;
+    margin-left: 1%;
+}
+
+.el2 p {
+    padding-left: 10px;
+}
+
+.el2:hover {
+    width: 45%;
+}
+
+.el3 {
+    width: 50%;
+}
+
+.el3:hover {
+    width: 55%;
+}
+
+.el4 {
+    width: 65%;
+}
+
+.el4:hover {
+    width: 70%;
+}
 .btn p {
     margin-top: 0px;
 }
@@ -154,7 +190,12 @@ aside h2 {
 }
 
 .textinside {
-    width: 150px;
+    width: 100%;
+}
+
+.textinside a {
+    width: 82%;
+    padding-left: 15px;
 }
 
 #blocpop {
@@ -168,7 +209,7 @@ aside h2 {
 
 .contentbloc {
     width: 90%;
-    height: 30%
+    height: 28%
 }
 
 .starside {

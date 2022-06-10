@@ -1,5 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
 
 body a {
@@ -32,10 +33,10 @@ header nav ul {
     list-style-type: none;
     display:flex;
     margin-right: 40px;
-    margin-top: -8px;
+    margin-top: 0;
 }
 
-header nav li {
+header nav ul li {
     margin-left: 10px;
     margin-right: 10px;
     padding-top: 50px;
@@ -46,7 +47,7 @@ header nav li {
     border-top: 3px solid white;
 }
 
-nav a {
+header nav a {
     text-decoration: none;
     color: black;
 }
@@ -291,7 +292,7 @@ section {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     margin-left: 3%;
-    margin-top: 7px;
+    margin-top: 2%;
     object-fit: cover;
     object-position: 0% 65%;
 }
@@ -329,16 +330,15 @@ section {
 }
 
 .grey {
-    margin-bottom: 3px;
     color: #d8d6d6;
-    letter-spacing: -2px;
+    letter-spacing: 1px;
 }
 
 #container h4 {
     font-size: 18px;
     font-weight: 900;
     color: black;
-    width: 10%;
+    width: 17%;
     height: 50px;
     margin: 0 0 0 40px;
     display:flex;
@@ -357,6 +357,11 @@ aside {
     margin-left: 40px;
     display:flex;
     flex-direction: column;
+}
+
+aside a {
+    text-decoration: none;
+    color: black;
 }
 
 aside h2 {
@@ -383,10 +388,10 @@ aside h2 .fa-solid {
     margin-top: -10px;
 }
 
-.contentbloc img {
-    width: 40%;
-    height: 88%;
-    margin: 2% 0 2% 3%;
+.img-pop {
+    width: 90%;
+    height: 91%;
+    margin: 4% 0 2% 3%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     object-fit: cover;
@@ -402,6 +407,13 @@ aside h2 .fa-solid {
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
 }
 
+.contentbloc a {
+    width: 45%;
+}
+
+.textinside a {
+    width: 100%;
+}
 .contentbloc h3 {
     font-size: 15px;
     font-weight: 900;
@@ -415,8 +427,9 @@ aside h2 .fa-solid {
 .contentbloc .textinside {
     display:flex;
     flex-direction: column;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 75%;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .starside .fa-solid {
@@ -432,14 +445,15 @@ aside h2 .fa-solid {
     align-items: center;
 }
 
-.greyside {
-    margin-bottom: -2px;
+.starside .greyside {
     letter-spacing: -2px;
-}
-
-.greyside .fa-solid {
     color: #d8d6d6;
 }
+
+.scnd {
+    margin-bottom: 20px;
+}
+
     /* ACTIVITES */
 #activtitres {
     font-size: 11px;
