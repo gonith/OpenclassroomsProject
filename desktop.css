@@ -251,15 +251,14 @@ section {
     /* CONTAINER */
 #container {
     width: 75%;
-    height: 660px;
+    height: 620px;
     background-color: #f2f2f2;
     border-radius: 15px;
 }
 
 #container h2 {
     width: 75%;
-    height: 110px;
-    margin: 0 0 0 40px;
+    margin: 40px 0 10px 40px;
     display:flex;
     align-items: center;
     font-size: 21px;
@@ -271,10 +270,12 @@ section {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: auto;
 }
 
 .item {
     width: 29%;
+    margin: auto;
     height: 45%;
     background-color: white;
     border-radius: 15px;
@@ -351,7 +352,7 @@ section {
     /* ASIDE */
 aside {
     width: 25%;
-    height: 660px;
+    height: 620px;
     background-color: #f2f2f2;
     border-radius: 15px;
     margin-left: 40px;
@@ -365,12 +366,13 @@ aside a {
 }
 
 aside h2 {
-    height: 110px;
+    width: 85%;
     font-weight: 900;
     font-size: 21px;
     display:flex;
     align-items: center;
-    margin: 0 0 0 35px;
+    justify-content: space-between;
+    margin: 40px 0 10px 25px;
 }
 
 aside h2 .fa-solid {
@@ -385,7 +387,6 @@ aside h2 .fa-solid {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: -10px;
 }
 
 .img-pop {
@@ -434,7 +435,7 @@ aside h2 .fa-solid {
 
 .starside .fa-solid {
     font-size: 12px;
-    margin-top: 40px;
+    margin-top: 12%;
     color: #0065FC;
 }
 
@@ -465,6 +466,7 @@ aside h2 .fa-solid {
     height: 400px;
     display:flex;
     justify-content: space-between;
+    margin-top: 20px;
 }  
 
 #activites h2 {

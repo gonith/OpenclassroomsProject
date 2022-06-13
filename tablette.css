@@ -17,45 +17,21 @@ body a {
     height: 40px;
 }
     /* NAV */
-header nav {
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    margin-top: 0px;
-}
-
 header nav ul {
-    list-style-type: none;
-    display:flex;
     margin-right: 0px;
 }
 
-header nav li {
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: 800;
-    color:black;
+header nav ul li {
     font-size: 15px;
 }
 
-head nav li:hover {
-    border-top: solid #0065FC;
-    color: #0065FC;
-}
     /* TITRES */
 header h1 {
-    font-weight: 900;
     font-size: 20px;
-    margin-top: 50px;
 }
 
 header h2 {
     font-size: 15px;
-    font-weight: 500;
-    margin-top: -10px;
 }
     /* SEARCHBAR */
 #zonetext {
@@ -137,7 +113,6 @@ header h2 {
 
 .el1:hover {
     width: 200px;
-    background-color: #f2f2f2;
 }
 
 .el2 {
@@ -146,7 +121,6 @@ header h2 {
 
 .el2:hover {
     width: 160px;
-    background-color: #f2f2f2;
 }
 
 .el3 {
@@ -155,16 +129,13 @@ header h2 {
 
 .el3:hover {
     width: 200px;
-    background-color: #f2f2f2;
 }
-
 .el4 {
     width: 235px;
 }
 
 .el4:hover {
     width: 250px;
-    background-color: #f2f2f2;
 }
 
 .btn .imgfil {
@@ -182,13 +153,6 @@ header h2 {
     transition: all 2s ease; 
     -webkit-transform: rotate(360deg); /* rotation de l'image */
     transform: rotate(360deg);   
-}
-
-.btn p {
-    display:flex;
-    align-items: center;
-    padding-left: 15px;
-    color:black;
 }
 
 .fa-solid {
@@ -235,6 +199,7 @@ aside h2 {
     font-size: 18px;
     font-weight: 900;
     height: 40px;
+    margin: auto;
 }
 
 aside h2 .fa-solid {
