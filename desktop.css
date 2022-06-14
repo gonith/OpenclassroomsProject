@@ -83,7 +83,7 @@ header h2 {
     height: 66px;
     display:flex;
     border-width: 3px 0px 3px 0px;
-    border: solid #f2f2f2;
+    border: 3px solid #f2f2f2;
     border-radius: 20px;
 }
 
@@ -288,11 +288,11 @@ section {
 }
 
 .item img {
-    width: 95%;
+    width: 96%;
     height: 130px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    margin-left: 3%;
+    margin-left: 2%;
     margin-top: 2%;
     object-fit: cover;
     object-position: 0% 65%;
@@ -392,7 +392,7 @@ aside h2 .fa-solid {
 .img-pop {
     width: 90%;
     height: 91%;
-    margin: 4% 0 2% 3%;
+    margin: 4% 0 2% 4%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     object-fit: cover;
