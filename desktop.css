@@ -481,6 +481,11 @@ aside h2 .fa-solid {
     border-radius: 15px;
 }
 
+.colonne1:hover {
+    -webkit-transform:scale(1.03);
+    -webkit-transition: all 1s ease;
+}
+
 .colonne1 img {
     width: 100%;
     height: 350px;
@@ -604,4 +609,20 @@ footer nav li {
 
 footer nav li:hover {
     color: #0065FC;
+}
+
+    /* ANIMATION ELEMENTS ZOOM SECTION + ACTIVITES */
+    
+.zoom:hover {
+    -webkit-transform:scale(1.03);
+    -moz-transform:scale(1.03);
+    -ms-transform:scale(1.03);
+    -o-transform:scale(1.03);
+    transform:scale(1.03);
+    
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
 }
