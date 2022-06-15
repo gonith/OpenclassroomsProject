@@ -52,7 +52,11 @@ header nav a {
     color: black;
 }
 
-header nav li:hover {
+header nav a:hover {
+    color: #0065FC;
+}
+
+header nav ul li:hover {
     border-top: 3px solid #0065FC;
     color: #0065FC;
 }
@@ -71,11 +75,12 @@ header h2 {
     /* SEARCHBAR */
 #zonetext {
     height: 66px;
-    width: 280px;
+    width: 60%;
     margin-bottom: 5px;
     font-size: 24px;
     font-weight: 600;
     border: 1px solid white;
+    padding-left: 15px;
 }
 
 #searchbar {
@@ -265,7 +270,7 @@ section {
 }
 
 #annonces {
-    width: 100%;
+    width: 97%;
     height: 480px;
     display:flex;
     flex-wrap: wrap;
@@ -274,7 +279,7 @@ section {
 }
 
 .item {
-    width: 29%;
+    width: 31%;
     margin: auto;
     height: 45%;
     background-color: white;
@@ -366,17 +371,16 @@ aside a {
 }
 
 aside h2 {
-    width: 85%;
+    width: 83%;
     font-weight: 900;
     font-size: 21px;
     display:flex;
     align-items: center;
     justify-content: space-between;
-    margin: 40px 0 10px 25px;
+    margin: 40px 0 10px 35px;
 }
 
 aside h2 .fa-solid {
-    margin-left: 70px;
     font-size: 20px;
 }
 
@@ -399,7 +403,7 @@ aside h2 .fa-solid {
 }
 
 .contentbloc {
-    width: 90%;
+    width: 85%;
     height: 23%;
     background-color: white;
     border-radius: 15px;

@@ -36,7 +36,6 @@ header h2 {
     /* SEARCHBAR */
 #zonetext {
     height: 46px;
-    width: 250px;
     border: 1px solid white;
     margin-bottom: 5px;
     font-size: 15px;
@@ -86,7 +85,7 @@ header h2 {
 }
     /* FILTRES */
 #filtres {
-    width: 60%;
+    width: 62%;
     height: 120px;
     margin-top: 15px;
     display:flex;
@@ -334,8 +333,11 @@ footer nav {
     justify-content: space-around;
 }
 
+footer nav ul {
+    padding: 0;
+}
+
 footer {
-    margin-top: 0px;
     height: 150px;
 }
 
