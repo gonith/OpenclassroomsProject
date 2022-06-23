@@ -172,7 +172,7 @@ header h2 {
 #logotext p {
     font-size: 15px;
 }
-    /* ASIDE */
+    /* MAIN - ASIDE */
 section {
     display:flex;
     flex-direction: column-reverse;
