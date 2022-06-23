@@ -194,6 +194,69 @@ header nav ul li:hover {
 .el4:hover {
     width: 70%;
 }
+
+@media screen and (max-width: 325px) {
+    .el2 {
+        min-width: 50%;
+    }
+
+    .el1 {
+        min-width: 60%;
+    }
+
+    .el3 {
+        min-width: 60%;
+    }
+
+    .el4 {
+        min-width: 75%;
+    }
+    
+    .btn {
+        margin-top: 7px;
+    }
+
+    #logotext {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 285px) {
+    .el2 {
+        min-width: 55%;
+    }
+
+    .el1 {
+        min-width: 70%;
+    }
+
+    .el3 {
+        min-width: 70%;
+    }
+
+    .el4 {
+        min-width: 85%;
+    }
+}
+
+@media screen and (max-width: 255px) {
+    .el2 {
+        min-width: 65%;
+    }
+
+    .el1 {
+        min-width: 80%;
+    }
+
+    .el3 {
+        min-width: 80%;
+    }
+
+    .el4 {
+        min-width: 92%;
+    }
+}
+
 .btn p {
     margin-top: 0px;
 }
@@ -214,7 +277,6 @@ header nav ul li:hover {
 }
 
 #logotext {
-    margin-top: 0px;
     margin-bottom: 10px;
 }
 
