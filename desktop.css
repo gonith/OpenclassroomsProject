@@ -591,6 +591,10 @@ footer {
     margin-top: 40px;
 }
 
+footer a {
+    color: black;
+}
+
 footer nav {
     display:flex;
     justify-content: space-between;
