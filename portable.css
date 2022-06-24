@@ -130,8 +130,8 @@ header nav ul li:hover {
     flex-direction: row;
     justify-content: flex-start;
     height: 230px;
-    width: 90%;
-    margin-left: 35px;
+    width: 95%;
+    margin-left: auto;
     margin-top: 5px;
     font-size: 16px;
 }
@@ -159,15 +159,15 @@ header nav ul li:hover {
 }
 
 .el1 {
-    width: 50%;
+    width: 46%;
 }
 
 .el1:hover {
-    width: 55%;
+    width: 49%;
 }
 
 .el2 {
-    width: 38%;
+    width: 36%;
     margin-left: 1%;
 }
 
@@ -176,23 +176,23 @@ header nav ul li:hover {
 }
 
 .el2:hover {
-    width: 45%;
+    width: 39%;
 }
 
 .el3 {
-    width: 50%;
+    width: 45%;
 }
 
 .el3:hover {
-    width: 55%;
+    width: 48%;
 }
 
 .el4 {
-    width: 65%;
+    width: 58%;
 }
 
 .el4:hover {
-    width: 70%;
+    width: 61%;
 }
 
 @media screen and (max-width: 325px) {
@@ -305,11 +305,11 @@ aside h2 .fa-solid {
 
 .textinside {
     width: 100%;
+    flex-direction: column;
 }
 
 .textinside a {
     width: 82%;
-    padding-left: 15px;
 }
 
 #blocpop {
@@ -323,15 +323,17 @@ aside h2 .fa-solid {
 
 .contentbloc {
     width: 90%;
-    height: 28%
+    height: 28%;    
 }
 
 .contentbloc h3 {
     font-size: 17px;
+    width: 90%;
+    margin-top: 10px;
 }
 
 .starside {
-    margin-top: 14%;
+    margin-top: 8%;
 }
     /* SECTION */
 #container {
@@ -399,8 +401,8 @@ aside h2 .fa-solid {
 
 #activites h2 {
     justify-content: flex-start;
-    margin: auto;
     width: 85%;
+    margin-left: 15px;
 }
 
 #activites img {
