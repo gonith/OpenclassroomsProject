@@ -183,7 +183,7 @@ section {
 }    
 
 aside {
-    height: 200px;
+    height: 180px;
     margin-left: 0px;
     width: 100%;
     margin-top: 20px;
@@ -193,12 +193,11 @@ aside {
     flex-direction: row;
     width: 100%;
     height: 140px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 aside h2 {
     justify-content: center;
-    align-items: flex-end;
     font-size: 18px;
     font-weight: 900;
     height: 40px;
@@ -214,32 +213,34 @@ aside h2 .fa-solid {
     height: 85%
 }
 
-.contentbloc a {
-    width: 50%;
-}
-
-.textinside a {
-    width: 90%;
-}   
-
 .contentbloc img {
-    margin-top: 5%;
-    margin-left: 5%;
+    width: 35%;
 }
 
-.contentbloc .textinside {
-    padding-right: 0px;
-    padding-left: 0px;
+.contentbloc a {
+    width: 100%;
+}
+
+.contentbloc p {
+    margin-top: 0;
 }
 
 .scnd {
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 772px) {
+    .scnd {
+        margin-bottom: 30px;
+    }
+}
     /* SECTION */
 #container h2 {
+    display:flex;
     justify-content: center;
+    align-items: center;
     margin: auto;
-    height: 50px;
+    height: 40px;
     font-size: 18px;
 }    
 
@@ -347,6 +348,7 @@ footer {
 
 footer nav h2 {
     font-size: 16px;
+    margin-left: 0;
 }
 
 footer nav li {

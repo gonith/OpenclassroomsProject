@@ -335,6 +335,10 @@ aside h2 .fa-solid {
 .starside {
     margin-top: 8%;
 }
+
+.scnd {
+    margin-bottom: 0;
+}
     /* SECTION */
 #container {
     width: 100%;
@@ -348,7 +352,6 @@ aside h2 .fa-solid {
     width: 85%;
     justify-content: flex-start;
     font-size: 20px;
-    padding-bottom: 0px;
     margin-bottom: -5px;
 }
 
@@ -380,7 +383,7 @@ aside h2 .fa-solid {
 
     /* ACTIVITES */
 #activtitres {
-    margin-top: 300px;
+    margin-top: 290px;
     width: 100%;
     justify-content: flex-start;
 }   
@@ -437,3 +440,7 @@ footer nav {
     flex-direction: column;
     margin-top: 440px;
 }    
+
+.footnav h2 {
+    margin-left: 20px;
+}

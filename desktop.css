@@ -362,7 +362,10 @@ aside {
     border-radius: 15px;
     margin-left: 40px;
     display:flex;
-    flex-direction: column;
+}
+
+#populaire {
+    width: 100%;
 }
 
 aside a {
@@ -393,10 +396,10 @@ aside h2 .fa-solid {
     align-items: center;
 }
 
-.img-pop {
-    width: 90%;
-    height: 91%;
-    margin: 4% 0 2% 4%;
+.contentbloc img {
+    width: 35%;
+    height: 93%;
+    margin: 5px 0 5px 5px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     object-fit: cover;
@@ -413,12 +416,10 @@ aside h2 .fa-solid {
 }
 
 .contentbloc a {
-    width: 45%;
+    width: 100%;
+    display:flex;
 }
 
-.textinside a {
-    width: 100%;
-}
 .contentbloc h3 {
     font-size: 15px;
     font-weight: 900;
@@ -430,7 +431,7 @@ aside h2 .fa-solid {
 }
 
 .contentbloc .textinside {
-    width: 75%;
+    width: 60%;
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -584,19 +585,25 @@ footer nav {
 
 footer nav ul {
     list-style-type: none;
+    flex-direction: column;
 }
 
 footer nav h2 {
     font-size: 18px;
     font-weight: 900;
+    margin-left: 40px;
 }
 
 footer nav li {
     margin-bottom: 10px;
 }
 
-footer nav li:hover {
+footer nav li a:hover {
     color: #0065FC;
+}
+
+.footnav {
+    margin-top: 25px;
 }
 
     /* ANIMATION ELEMENTS ZOOM SECTION + ACTIVITES */
