@@ -11,7 +11,7 @@ body a {
     width: 95%;
     margin: auto;
 }
-                /* HEADER */
+    /* HEADER */
     /* LOGO */
 #first {
     display:flex;
@@ -23,12 +23,6 @@ body a {
     height: 60px;
 }
     /* NAV */
-header nav {
-    display:flex;
-    justify-content:center;
-    align-items: center;
-}
-
 header nav ul {
     list-style-type: none;
     display:flex;
