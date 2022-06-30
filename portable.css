@@ -442,5 +442,10 @@ footer nav {
 }    
 
 .footnav h2 {
-    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.footnav {
+    margin-top: 0;
+    width: 100%;
 }
